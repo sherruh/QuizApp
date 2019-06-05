@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import com.quizapp.R;
 import com.quizapp.ui.history.HistoryActivity;
-import com.quizapp.ui.test.TestActivity;
+import com.quizapp.ui.quiz.QuizActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         buttonStartTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TestActivity.start(MainActivity.this);
+                QuizActivity.start(MainActivity.this);
             }
         });
         buttonShowHistory.setOnClickListener(new View.OnClickListener() {

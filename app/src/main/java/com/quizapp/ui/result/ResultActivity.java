@@ -1,4 +1,4 @@
-package com.quizapp.ui.test_result;
+package com.quizapp.ui.result;
 
 import android.content.Context;
 import android.content.Intent;

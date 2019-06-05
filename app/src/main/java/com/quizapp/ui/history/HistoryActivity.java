@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.quizapp.R;
-import com.quizapp.ui.test.TestActivity;
 
 public class HistoryActivity extends AppCompatActivity {
 

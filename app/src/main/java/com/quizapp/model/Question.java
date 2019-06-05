@@ -6,23 +6,30 @@ import com.quizapp.model.enums.Type;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Question implements Serializable {
 
     @SerializedName("category")
     private String category;
+
     //private Type type;
     //private Difficulty difficulty;
+
     @SerializedName("type")
     private String type;
+
     @SerializedName("difficulty")
     private String difficulty;
+
     @SerializedName("question")
     private String question;
+
     @SerializedName("correct_answer")
     private String correctAnswer;
+
     @SerializedName("incorrect_answers")
-    private ArrayList<String> incorrectAnswers;
+    private List<String> incorrectAnswers;
 
     public Question(String category, String type, String difficulty, String question,
                     String correctAnswer, ArrayList<String> incorrectAnswers) {
@@ -74,11 +81,11 @@ public class Question implements Serializable {
         this.correctAnswer = correctAnswer;
     }
 
-    public ArrayList<String> getIncorrectAnswers() {
+    public List<String> getIncorrectAnswers() {
         return incorrectAnswers;
     }
 
-    public void setIncorrectAnswers(ArrayList<String> incorrectAnswers) {
+    public void setIncorrectAnswers(List<String> incorrectAnswers) {
         this.incorrectAnswers = incorrectAnswers;
     }
 }

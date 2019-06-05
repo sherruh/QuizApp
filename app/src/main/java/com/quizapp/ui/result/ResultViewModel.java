@@ -1,4 +1,4 @@
-package com.quizapp.ui.test_result;
+package com.quizapp.ui.result;
 
 import android.arch.lifecycle.ViewModel;
 

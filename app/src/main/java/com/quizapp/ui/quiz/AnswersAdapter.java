@@ -1,4 +1,4 @@
-package com.quizapp.ui.test;
+package com.quizapp.ui.quiz;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 public class AnswersAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

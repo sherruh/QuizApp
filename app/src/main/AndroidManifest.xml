@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.quizapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -11,8 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.history.HistoryActivity"></activity>
-        <activity android:name=".ui.test_result.ResultActivity" />
-        <activity android:name=".ui.test.TestActivity" />
+        <activity android:name=".ui.result.ResultActivity" />
+        <activity android:name=".ui.quiz.QuizActivity" />
         <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
